@@ -46,7 +46,7 @@ I have built a single app to run these scripts so the process can be setup easie
    ```
    replacing `USERNAME` with your login username (use `whoami` to find this out):
    ```
-   USERNAME ALL=(ALL) NOPASSWD: /usr/bin/kextutil
+   USERNAME ALL=(ALL) NOPASSWD: /usr/bin/kextutil, /sbin/kextunload
    ```
 
    You can now choose automatic control or manual control to disable Turbo Boost.
