@@ -11,12 +11,10 @@ Additionally, the kext shown here will only work on Intel-based Macs.
 ## Why?
 My 2012 Intel MacBook Pro can get quite hot. 
 It's well known that integrated circuits last longer if they are not stressed out as much during their life.
-That means (relatively) cool operation most of the time. 
-Typing on a warm keyboard is also a deeply unpleasent experience.
-I'm willing to have a bit of a hit in performance (about 20%) so that I can have a much nicer time using my computer.
+That means (relatively) cool operation most of the time.
 
 I love TBS but was being constantly bombared with at least 3 login prompts every time I unlocked my computer.
-There were no workarounds for this as far as I could tell, so I wrote this simple wrapper so I'll never have to see another one of those damn prompts again.
+There were no workarounds for this as far as I could tell, so I wrote an app to use edupr91's script to use the kext from [Turbo Boost Switcher (TBS)](https://github.com/rugarciap/Turbo-Boost-Switcher) to disable/enable Turbo Boost in an even easier way than his shell script [(here it is)](https://github.com/edupr91/turbo-boost-disable).
 
 This program runs totally silently in the background and I never have to think about it; the same goes for my MacBook.
 It's finally cool, calm, and lasts longer on battery life.
